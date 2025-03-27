@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.cyberneticsquid.spatialdifficulty.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "spatialdifficulty.refmap.json",
+  "mixins": [
+    "DifficultyInstanceMixin",
+    "LevelMixin",
+    "WorldGenRegionMixin"
+  ],
+  "client": [
+    "DebugScreenOverlayMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
